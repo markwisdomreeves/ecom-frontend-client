@@ -8,7 +8,7 @@
 
 ## To start this project
 
-### Create a API.js file and add apiUrl: 'https://ecom-api-1.herokuapp.com/api'
+### Create a API.js file and add this apiUrl: 'https://ecom-api-1.herokuapp.com/api'
 ### Run npm install
 ### Run npm start
 
