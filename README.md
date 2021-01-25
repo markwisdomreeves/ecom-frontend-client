@@ -1,4 +1,4 @@
-### ECOMMERCE SHOPPING CENTER ( frontend section )
+## ECOMMERCE SHOPPING CENTER ( frontend section )
 
 #### This is an online Ecommerce Shopping center that allows you to buy a product of your kind.
 #### It uses the PayPal API payment method system. 
