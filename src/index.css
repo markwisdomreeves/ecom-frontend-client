@@ -1,13 +1,202 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+main {
+  min-height: 70vh;
+}
+h1 {
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  color: red;
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.custom-price-name-style{
+  font-size: 1rem;
+  font-weight: 900;
+}
+h3 {
+  padding: 1rem 0;
+}
+/* signin error styles */
+.login-page input {
+  border: 1px solid #777;
+}
+.login-page input.error {
+  border-color: red;
+}
+.login-page .input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -2px;
+  font-size: 14px;
+}
+#input-field {
+  width: 100%;
+  padding: 10px;
+}
+/* end */
+
+#footer-bottom {
+  margin-top: 0 !important;
+  padding: 1.5rem;
+}
+.product-reviews-text {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 900;
+  color: brown !important;
+}
+.signin-to-write-review {
+  color: green !important;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+.login-user-inputs-1 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.login-user-inputs-2 {
+  font-size: 0.8rem;
+  color: green !important;
+}
+/* .custom-card-style-1 {
+  overflow: hidden !important;
+} */
+#newsletter-heading {
+  font-size: 3rem;
+  text-align: center;
+}
+#news-letter-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.custom-card-style-2 {
+ min-height: auto;
+ height: 90%;
+}
+.rating span {
+  margin: 2px;
+}
+.page-not-found img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 30%;
+  height: 30%;
+}
+.footer-custom-new-letter {
+  margin-top: 2rem;
+}
+.footer-custom-new-letter .new-letter-btn {
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.footer-custom-style {
+  font-size: 1.2rem;
+  color: #000;
+}
+.footer-icon {
+  font-size: 2rem;
+  color: #000;
+  margin-right: 5px;
+}
+.footer-color p {
+  color: #f1f1f1;
+  text-align: center;
+}
+.footer-icon {
+  color: #f1f1f1;
+}
+.footer-icon:hover {
+  color:red;
+}
+.footer-color {
+  background-color: black;
+}
+#news-letter-icons {
+  font-size: 4rem;
+}
+#newletters-success-heading {
+  font-size: 3rem;
+}
+#newletters-success-text {
+  font-size: 2rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* shipping steps styles */
+.signin-light-blue-color {
+  color: lightskyblue !important;
 }
+.shipping-light-red-color {
+  color: red !important;
+}
+.payment-light-pink-color {
+  color: orchid !important;
+}
+.placeorder-light-green-color {
+  color: green !important;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.carousel-caption h2 {
+  color: #fff;
+}
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .home-screen-h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5px;
+    padding: 3px;
+  }
+  .carousel img {
+    height: 200px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 50%;
+  }
+  #search-form-container {
+    margin-top: 10px;
+  }
+  #search-button {
+    margin-top: 3px !important;
+  }
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+  #newsletter-heading {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  #news-letter-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #news-letter-icons {
+    font-size: 2rem;
+  }
+}
+
+
